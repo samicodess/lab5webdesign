@@ -1,0 +1,142 @@
+.navigationBar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navigationBar .finki-logo {
+  float: left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.navigationBar .links {
+  display: flexbox;
+  float: right;
+}
+
+.navigationBar .links a {
+  margin-right: 5em;
+}
+
+.navigationBar .links a:hover {
+  color: green;
+  transition:  0.4s ease-in;
+}  
+
+.monitor {
+  display: flex;
+  background-color: darkblue;
+  width: 100%;
+}
+
+.monitor .text .title,
+.desc {
+  margin-left: 100px;
+  font-size: 70px;
+  margin-top: 50px;
+  color: white;
+}
+
+.monitor .pc img {
+  margin-left: 200px; /* Adjust as needed */
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+  background-color: green;
+}
+
+.content .first-part .raspberries {
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+  width: 250px;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.content .second-part {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  float: left;
+}
+
+.flowers {
+  float: right;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.aboutHeader {
+  padding: 30px;
+  background-color: greenyellow;
+}
+
+.aboutHeader h1 {
+  margin-top: -15px;
+  float: left;
+}
+
+.aboutHeader h2 {
+  margin-top: -15px;
+  float: right;
+  margin-right: -10px;
+}
+
+.nc {
+  color: black;
+  text-align: center;
+  width: 80em;
+}
+
+.company {
+  background-color: gray;
+}
+
+.company h1 {
+  text-align: center;
+  color: white;
+}
+
+.all-employees {
+  display: flex;
+  justify-content: center;
+}
+
+.employees {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.employees .employee {
+  border: 1px solid white;
+  background-color: white;
+  text-align: center;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.finki-map iframe {
+  margin-top: 5px;
+  width: 400px;
+  height: 250px;
+}
+
+
